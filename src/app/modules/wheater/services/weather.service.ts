@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
  * Serviço responsável por buscar informações de clima de uma cidade através da API do OpenWeatherMap.
  */
 export class WeatherService {
-  private apiKey = '6382bcc26479515eedc5eecb7474992f';
+  private apiKey = '3a663ad7cf8891e832cd45767e26615a';
 
   constructor(private http: HttpClient) {}
 
